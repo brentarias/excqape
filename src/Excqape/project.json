@@ -1,0 +1,24 @@
+﻿{
+  "title": "Excqape",
+  "version": "0.7.0-*",
+  "releaseNotes": "Code taken from .NET Junkie, but with asynchrony introduced and some name changes",
+  "summary": "Excqape is simply DAL and CQRS support interfaces.",
+  "description": "Excqape interfaces provide support for the combination of several design patterns: the Command Pattern, the Decorator Pattern, and the 'Exchange' Pattern.  It abstracts any storage paradigm (relational, key-value, document, etc.), without the ugliness of repositories.",
+  "authors": [ "Brent Arias" ],
+  "tags": [ "DAL", "Repository", "CQRS", "Excqape", "Escape" ],
+  "projectUrl": "https://github.com/brentarias/excqape",
+  "licenseUrl": "https://opensource.org/licenses/MIT",
+
+  "frameworks": {
+    "net451": { },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
