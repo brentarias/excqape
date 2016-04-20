@@ -17,9 +17,9 @@ When these patterns are combined, it is called the "Escape" pattern.
 
 ## Sections
 
- * [The Exchange Pattern](exchange)
- * [The Escape Pattern](escape)
- * [Credits, Documentation & Background](documentation)
+ * [The Exchange Pattern](#exchange)
+ * [The Escape Pattern](#escape)
+ * [Credits, Documentation & Background](#documentation)
 
 ## <a name="exchange">The Exchange Pattern</a>
 
