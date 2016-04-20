@@ -8,8 +8,8 @@ namespace Excqape
 {
     public sealed class PagingInformation
     {
-        public readonly int PageIndex;
-        public readonly int PageSize;
+        public int PageIndex { get; private set; }
+        public int PageSize { get; private set; }
 
         /// <summary>
         /// Paging parameters for IQuerySpec&lt;T&gt; objects.
