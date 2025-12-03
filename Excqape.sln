@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Excqape", "src\Excqape\Excqape.xproj", "{32071954-9D6A-40DA-A154-C77E2B8AAA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excqape", "src\Excqape\Excqape.csproj", "{32071954-9D6A-40DA-A154-C77E2B8AAA37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

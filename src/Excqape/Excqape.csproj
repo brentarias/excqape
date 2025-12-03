@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Version>0.7.1</Version>
+    <Authors>Brent Arias</Authors>
+    <Description>Excqape interfaces provide support for the combination of several design patterns: the Command Pattern, the Decorator Pattern, and the 'Exchange' Pattern. It abstracts any storage paradigm (relational, key-value, document, etc.), without the ugliness of repositories.</Description>
+    <PackageTags>DAL Repository CQRS Excqape Escape</PackageTags>
+    <RepositoryUrl>https://github.com/brentarias/excqape</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyTitle>Excqape</AssemblyTitle>
+    <AssemblyDescription></AssemblyDescription>
+    <AssemblyConfiguration></AssemblyConfiguration>
+    <AssemblyCompany></AssemblyCompany>
+    <AssemblyProduct>Excqape</AssemblyProduct>
+    <AssemblyCopyright>Copyright © 2016</AssemblyCopyright>
+    <AssemblyTrademark></AssemblyTrademark>
+    <AssemblyCulture></AssemblyCulture>
+    <ComVisible>false</ComVisible>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+</Project>

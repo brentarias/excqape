@@ -9,13 +9,13 @@ namespace Excqape.Identifier
     /// Defines a property through which database generated Ids can be accessed in command-spec objects.
     /// </summary>
     /// <remarks>
-    /// Wherever possible, application design should avoid using this interface.  Said again,
-    /// when possible, command objects and handlers should NOT be required to return
-    /// database generated Ids.  A design based on CQRS is a primary way to achieve this goal.
-    /// However, too many teams and software designs might be unable or unready to comply with
-    /// this strategy.  This interface exists to provide support in such cases.
-    /// Using this interface still allows asynchrony via async/await, but negates asynchrony
-    /// based on a queuing or service bus strategy.
+    /// Ideally, command objects and their handlers would NOT be required to return
+    /// database generated Ids for newly created records/entities. However, usually the only 
+    /// way this can be avoided is by having application code generate a GUID that is supplied 
+    /// as part of the command - which becomes the primary key in the DB. Yet this too is not ideal,
+    /// as database indexing on GUIDs is inefficient compared to integer based keys. Accordingly,
+    /// this interface exists to provide a way for command handlers to return (non-GUID) database 
+    /// generated Ids, without inviting the problem associated with GUIDs as primary keys.
     /// </remarks>
     /// <typeparam name="T"></typeparam>
     public class ICommandSpec<T>
